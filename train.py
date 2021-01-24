@@ -73,7 +73,7 @@ def train(base_model,
         # indices = torch.randperm(len(data_set_valid))
         # train_indices = indices[:len(indices) - 2*valid_size]
         # valid_indices = indices[len(indices) - 2*valid_size:len(indices) - 1*valid_size]
-        # test_indices = indices[len(indices) - 2*valid_size:]
+        # test_indices = indices[len(indices) - 1*valid_size:]
         # torch.save(train_indices, f'./{dataset}_train_indices.pth')
         # torch.save(valid_indices, f'./{dataset}_valid_indices.pth')
         # torch.save(test_indices, f'./{dataset}_test_indices.pth')
@@ -146,8 +146,8 @@ def train(base_model,
         assert len(data_set_valid) > 0
 
         # indices = torch.randperm(len(data_set_valid))
-        # train_indices = indices[:len(indices) - 3*valid_size]
-        # valid_indices = indices[len(indices) - 3*valid_size:len(indices) - 2*valid_size]
+        # train_indices = indices[:len(indices) - 2*valid_size]
+        # valid_indices = indices[len(indices) - 2*valid_size:len(indices) - 1*valid_size]
         # test_indices = indices[len(indices) - 1*valid_size:]
         # torch.save(train_indices, f'./{dataset}_train_indices.pth')
         # torch.save(valid_indices, f'./{dataset}_valid_indices.pth')

@@ -1,7 +1,7 @@
 # Max-Heinrich Laves
 # Institute of Mechatronic Systems
 # Leibniz Universität Hannover, Germany
-# 2019
+# 2021
 
 import fire
 import torch

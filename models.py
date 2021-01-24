@@ -79,7 +79,7 @@ class BreastPathQModel(torch.nn.Module):
         self._dropout_T = 25
         self._dropout_p = 0.5
 
-    def forward(self, input, dropout=True, mc_dropout=False):
+    def forward(self, input, dropout=True, mc_dropout=False, test=False):
 
         if mc_dropout:
             assert dropout
@@ -115,7 +115,7 @@ class BreastPathQModel(torch.nn.Module):
         muvar = mu_temp_accu.var(dim=0)
         logvar = logvar_temp_accu.mean(dim=0)
 
-        if self.training:
-            return mu, logvar, muvar
+        if test:
+            return mu_temp_accu.clamp(0, 1), logvar_temp_accu.clamp_max(0), muvar.clamp(0, 1)
         else:
-            return mu.clamp(0, 1), logvar.clamp_max(0), muvar.clamp(0, 1)
+            return mu, logvar, muvar
