@@ -57,9 +57,9 @@ The notebooks that contain "levi" in the file name perform the method of Levi et
 ## Contact
 
 Max-Heinrich Laves  
-[laves@imes.uni-hannover.de](mailto:laves@imes.uni-hannover.de)  
+[max.laves@tuhh.de](mailto:max.laves@tuhh.de)  
 [@MaxLaves](https://twitter.com/MaxLaves)
 
-Institute of Mechatronic Systems  
-Leibniz Universität Hannover  
-An der Universität 1, 30823 Garbsen, Germany
+Institute of Medical Technology and Intelligent Systems  
+Hamburg University of Technology  
+Hamburg, Germany
