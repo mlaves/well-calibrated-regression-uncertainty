@@ -19,7 +19,14 @@ Well-calibrated uncertainty in regression allows robust rejection of unreliable 
 MELBA2021
 
 ```
-under review
+@article{laves2021recalibration,
+  title={Recalibration of Aleatoric and Epistemic Regression Uncertainty in Medical Imaging},
+  author={Laves, Max-Heinrich and Ihler, Sontje and Fast, Jacob F and Kahrs, L{\"u}der A and Ortmaier, Tobias},
+  journal={Journal of Machine Learning for Biomedical Imaging},
+  number = {2021:008},
+  pages={1--26},
+  year={2021},
+}
 ```
 
 MIDL2020
